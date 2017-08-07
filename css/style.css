@@ -1,0 +1,41 @@
+body {
+    background: black;
+    color: white;
+    font-family: "Fira Sans Condensed";
+}
+.header {
+    width: 1098px;
+    margin: 0 auto;
+}
+.header img {
+    margin: 4px 10px;
+    height: 45px;
+    float: left;
+}
+.header ul {
+    display: inline-flex;
+    margin: 10px auto;
+}
+.header ul li {
+    margin-left: 40px;
+}
+.header form {
+    float: right;
+    margin: 10px;
+}
+.content {
+    width: 1098px;
+    margin: 0 auto;
+}
+.sidebar {
+    text-align: center;
+    border: solid 1px silver;
+    width: 20%;
+    float: left;
+}
+.rightSide {
+    float: right;
+    width: 79%;
+    text-align: center;
+    border: solid 1px silver;
+}
